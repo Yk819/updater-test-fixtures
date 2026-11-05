@@ -1,0 +1,1 @@
+Set-Content -Path (Join-Path $env:GRP_INSTALL_ROOT 'app/data/migrated-1.0.0.txt') -Value 'ok'
