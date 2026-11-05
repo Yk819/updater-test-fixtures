@@ -1,0 +1,389 @@
+{
+  "schemaVersion": 2,
+  "manifestVersion": 42,
+  "generatedAt": "2026-11-05T12:00:00Z",
+  "latest": {
+    "stable": "1.0.0",
+    "beta": "1.0.0-rc.1"
+  },
+  "minUpdaterVersion": "0.1.0",
+  "minSupportedVersion": "0.1.0",
+  "versions": [
+    {
+      "version": "0.1.0",
+      "channel": "stable"
+    },
+    {
+      "version": "0.2.0",
+      "channel": "stable"
+    },
+    {
+      "version": "0.3.0",
+      "channel": "stable"
+    },
+    {
+      "version": "1.0.0-beta.1",
+      "channel": "beta"
+    },
+    {
+      "version": "1.0.0-rc.1",
+      "channel": "beta"
+    },
+    {
+      "version": "1.0.0",
+      "channel": "stable"
+    }
+  ],
+  "edges": [
+    {
+      "kind": "adjacent",
+      "from": "0.1.0",
+      "to": "0.2.0",
+      "fromChannel": "stable",
+      "toChannel": "stable",
+      "channel": "stable",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 0,
+      "delta": {
+        "from": "0.1.0",
+        "to": "0.2.0",
+        "moved": [],
+        "removed": [],
+        "added": [
+          {
+            "path": "app/new-0.2.txt",
+            "object": "objects/7C/7CAAF244B6583B1DF570A684CFAA2A6271F32B984F72868D4A1C3BC6518D0442",
+            "sha256": "7CAAF244B6583B1DF570A684CFAA2A6271F32B984F72868D4A1C3BC6518D0442",
+            "size": 7
+          }
+        ],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/CF/CF0434C2EACDDF055335054D6204EC24C2101CB5302921E920A396642F9E2B39",
+            "sha256": "CF0434C2EACDDF055335054D6204EC24C2101CB5302921E920A396642F9E2B39",
+            "size": 9
+          }
+        ],
+        "archives": [],
+        "dependencies": [],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/0.2.0.ps1",
+          "object": "objects/C5/C578896424BC8BE04B09AC2BAFFD57B996E3D2B2DAE110EFA2FD19899737E1DB",
+          "sha256": "C578896424BC8BE04B09AC2BAFFD57B996E3D2B2DAE110EFA2FD19899737E1DB",
+          "size": 93,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [],
+          "pathMigrations": []
+        }
+      }
+    },
+    {
+      "kind": "adjacent",
+      "from": "0.2.0",
+      "to": "0.3.0",
+      "fromChannel": "stable",
+      "toChannel": "stable",
+      "channel": "stable",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 0,
+      "delta": {
+        "from": "0.2.0",
+        "to": "0.3.0",
+        "moved": [
+          {
+            "from": "app/Legacy.dll",
+            "to": "lib/Legacy.dll",
+            "sha256": "C49FEA7425FA7F8699897A97C159C6690267D9003BB78C53FAFA8FC15C325D84",
+            "size": 6,
+            "optional": false,
+            "requiresConfigUpdate": true
+          }
+        ],
+        "removed": [
+          "app/Old.dll"
+        ],
+        "added": [
+          {
+            "path": "lib/New.dll",
+            "object": "objects/7F/7F7415AB0995DE8B06CCEE13941307F214E26CC49532FF6D73A8CE1D026D4777",
+            "sha256": "7F7415AB0995DE8B06CCEE13941307F214E26CC49532FF6D73A8CE1D026D4777",
+            "size": 7
+          }
+        ],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/2D/2D879A3E6846BDD4A5DBCDBF65ABD27375065E2AFAC86CD90FBDB7982018DE41",
+            "sha256": "2D879A3E6846BDD4A5DBCDBF65ABD27375065E2AFAC86CD90FBDB7982018DE41",
+            "size": 9
+          }
+        ],
+        "archives": [],
+        "dependencies": [],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/0.3.0.ps1",
+          "object": "objects/BF/BFFF6069975A6F5C7F76024C98842170EF0DDC02207DD25DD4C1EFE2739D27D4",
+          "sha256": "BFFF6069975A6F5C7F76024C98842170EF0DDC02207DD25DD4C1EFE2739D27D4",
+          "size": 201,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [
+            "app/Legacy.dll",
+            "lib/Legacy.dll"
+          ],
+          "pathMigrations": [
+            {
+              "from": "app/Legacy.dll",
+              "to": "lib/Legacy.dll"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kind": "adjacent",
+      "from": "0.3.0",
+      "to": "1.0.0",
+      "fromChannel": "stable",
+      "toChannel": "stable",
+      "channel": "stable",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 0,
+      "delta": {
+        "from": "0.3.0",
+        "to": "1.0.0",
+        "moved": [],
+        "removed": [
+          "lib/Old.dll"
+        ],
+        "added": [],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/8B/8B0F1561BB1E316C1B66B41222B122DFF8794A75E33A508ACDD232035681BD65",
+            "sha256": "8B0F1561BB1E316C1B66B41222B122DFF8794A75E33A508ACDD232035681BD65",
+            "size": 9
+          }
+        ],
+        "archives": [
+          {
+            "object": "objects/31/3158B9CDB00C9C750B51D3B2E59ABB0C8FB6BA12A1E02DFAF8EEE267781B6C23",
+            "sha256": "3158B9CDB00C9C750B51D3B2E59ABB0C8FB6BA12A1E02DFAF8EEE267781B6C23",
+            "size": 139,
+            "extractTo": "lib/extras",
+            "stripRoot": true,
+            "maxEntries": 1000,
+            "maxSingleEntryBytes": 10485760,
+            "maxTotalBytes": 52428800
+          }
+        ],
+        "dependencies": [
+          {
+            "name": "dep.bin",
+            "object": "objects/CF/CF8A65A2C2339761560423624E1C65D29B43A1E0E8F0352ED00C27D849775747",
+            "sha256": "CF8A65A2C2339761560423624E1C65D29B43A1E0E8F0352ED00C27D849775747",
+            "size": 11,
+            "target": "tools/dep.bin"
+          }
+        ],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/1.0.0.ps1",
+          "object": "objects/61/61D11B5B94BEB4A94F0C24D36E73AA4CB5CC29D8C1E70DE578CC172BB108CE8C",
+          "sha256": "61D11B5B94BEB4A94F0C24D36E73AA4CB5CC29D8C1E70DE578CC172BB108CE8C",
+          "size": 93,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [],
+          "pathMigrations": []
+        }
+      }
+    },
+    {
+      "kind": "adjacent",
+      "from": "0.3.0",
+      "to": "1.0.0-beta.1",
+      "fromChannel": "stable",
+      "toChannel": "beta",
+      "channel": "beta",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 0,
+      "delta": {
+        "from": "0.3.0",
+        "to": "1.0.0-beta.1",
+        "moved": [],
+        "removed": [],
+        "added": [],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/AA/AA0147C475F618714DF2FD3A765B4A89235F291BFF78A0EAAA2DD3A9B10088FA",
+            "sha256": "AA0147C475F618714DF2FD3A765B4A89235F291BFF78A0EAAA2DD3A9B10088FA",
+            "size": 16
+          }
+        ],
+        "archives": [],
+        "dependencies": [],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/1.0.0-beta.1.ps1",
+          "object": "objects/74/74A11F8200BB05C75DAFFB63EB7FC4895C664ED8040FB462A52F15B72A3DD8D4",
+          "sha256": "74A11F8200BB05C75DAFFB63EB7FC4895C664ED8040FB462A52F15B72A3DD8D4",
+          "size": 92,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [],
+          "pathMigrations": []
+        }
+      }
+    },
+    {
+      "kind": "adjacent",
+      "from": "1.0.0-beta.1",
+      "to": "1.0.0-rc.1",
+      "fromChannel": "beta",
+      "toChannel": "beta",
+      "channel": "beta",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 0,
+      "delta": {
+        "from": "1.0.0-beta.1",
+        "to": "1.0.0-rc.1",
+        "moved": [],
+        "removed": [],
+        "added": [],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/7F/7FA240EE2535CCDEF7DDF4221E0F1A4F907C80FA01CAA80323EC984E7E4A0F83",
+            "sha256": "7FA240EE2535CCDEF7DDF4221E0F1A4F907C80FA01CAA80323EC984E7E4A0F83",
+            "size": 14
+          }
+        ],
+        "archives": [],
+        "dependencies": [],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/1.0.0-rc.1.ps1",
+          "object": "objects/F4/F490BDC0C46A367DF2D1BA209E22B386679F1F7F42485BC035E80B755C3D44C1",
+          "sha256": "F490BDC0C46A367DF2D1BA209E22B386679F1F7F42485BC035E80B755C3D44C1",
+          "size": 90,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [],
+          "pathMigrations": []
+        }
+      }
+    },
+    {
+      "kind": "adjacent",
+      "from": "1.0.0-rc.1",
+      "to": "1.0.0",
+      "fromChannel": "beta",
+      "toChannel": "stable",
+      "channel": "stable",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 0,
+      "delta": {
+        "from": "1.0.0-rc.1",
+        "to": "1.0.0",
+        "moved": [],
+        "removed": [],
+        "added": [],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/8B/8B0F1561BB1E316C1B66B41222B122DFF8794A75E33A508ACDD232035681BD65",
+            "sha256": "8B0F1561BB1E316C1B66B41222B122DFF8794A75E33A508ACDD232035681BD65",
+            "size": 9
+          }
+        ],
+        "archives": [],
+        "dependencies": [],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/1.0.0.ps1",
+          "object": "objects/61/61D11B5B94BEB4A94F0C24D36E73AA4CB5CC29D8C1E70DE578CC172BB108CE8C",
+          "sha256": "61D11B5B94BEB4A94F0C24D36E73AA4CB5CC29D8C1E70DE578CC172BB108CE8C",
+          "size": 93,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [],
+          "pathMigrations": []
+        }
+      }
+    },
+    {
+      "kind": "shortcut",
+      "from": "0.1.0",
+      "to": "0.3.0",
+      "fromChannel": "stable",
+      "toChannel": "stable",
+      "channel": "stable",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 10,
+      "delta": {
+        "from": "0.1.0",
+        "to": "0.3.0",
+        "moved": [],
+        "removed": [],
+        "added": [],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/2D/2D879A3E6846BDD4A5DBCDBF65ABD27375065E2AFAC86CD90FBDB7982018DE41",
+            "sha256": "2D879A3E6846BDD4A5DBCDBF65ABD27375065E2AFAC86CD90FBDB7982018DE41",
+            "size": 9
+          }
+        ],
+        "archives": [],
+        "dependencies": [],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/0.3.0-shortcut.ps1",
+          "object": "objects/2E/2EC599F1FAAEB0A0CB93D9E2D65F32D88F4C7473E575C68CCB99F8271FD7DD4F",
+          "sha256": "2EC599F1FAAEB0A0CB93D9E2D65F32D88F4C7473E575C68CCB99F8271FD7DD4F",
+          "size": 96,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [],
+          "pathMigrations": []
+        }
+      }
+    },
+    {
+      "kind": "shortcut",
+      "from": "1.0.0-beta.1",
+      "to": "1.0.0",
+      "fromChannel": "beta",
+      "toChannel": "stable",
+      "channel": "stable",
+      "minUpdaterVersion": "0.1.0",
+      "priority": 30,
+      "delta": {
+        "from": "1.0.0-beta.1",
+        "to": "1.0.0",
+        "moved": [],
+        "removed": [],
+        "added": [],
+        "replaced": [
+          {
+            "path": "app/GenshinRoutePlayer.App.exe",
+            "object": "objects/8B/8B0F1561BB1E316C1B66B41222B122DFF8794A75E33A508ACDD232035681BD65",
+            "sha256": "8B0F1561BB1E316C1B66B41222B122DFF8794A75E33A508ACDD232035681BD65",
+            "size": 9
+          }
+        ],
+        "archives": [],
+        "dependencies": [],
+        "configUpgrade": {
+          "phase": "post",
+          "path": "scripts/config/1.0.0-from-beta.ps1",
+          "object": "objects/F8/F89BCA3AB0FA846AD8C65541E9FF8F72BC90C21617CA5F27878C0131AFBDE82E",
+          "sha256": "F89BCA3AB0FA846AD8C65541E9FF8F72BC90C21617CA5F27878C0131AFBDE82E",
+          "size": 97,
+          "timeoutSeconds": 30,
+          "dependsOnPaths": [],
+          "pathMigrations": []
+        }
+      }
+    }
+  ]
+}
