@@ -1,0 +1,182 @@
+{
+  "version": "0.1.0-beta1",
+  "channel": "beta",
+  "files": {
+    "GenshinRoutePlayer.App.exe": {
+      "sha256": "62832C3CA5CD92F673D7270E12A4105422B1B6EF2DD6846FAF510C17C1DDC302",
+      "size": 198872
+    },
+    "\u4F7F\u7528\u8BF4\u660E.html": {
+      "sha256": "6DA7E5BEE489D65D7D707FE1A6E95607C1A9488781EC4CC95BD1D7507223F3E5",
+      "size": 15765
+    },
+    "\u542F\u52A8 GenshinRoutePlayer.vbs": {
+      "sha256": "09EF1016FC22F29A38933A4D6AE3968AB731CF25267F3A0D0B5C9117C308FCB5",
+      "size": 2576
+    },
+    "app/GenshinRoutePlayer.App.deps.json": {
+      "sha256": "C0A44EFB8D333CA2FA7ABB9C9410C285D91F583518B716328D8F42605FFF528F",
+      "size": 16408
+    },
+    "app/GenshinRoutePlayer.App.dll": {
+      "sha256": "D15DF962A7C5A4A3E7B0E80ABE7CF1E721DAA8FBC552DF2BD10223C4836CE16E",
+      "size": 326144
+    },
+    "app/GenshinRoutePlayer.App.exe": {
+      "sha256": "353F41BB8F61D0F7F649AA5200E43086C454DA0A06A949F6BBEB7CB6DB39745C",
+      "size": 172032
+    },
+    "app/GenshinRoutePlayer.App.runtimeconfig.json": {
+      "sha256": "C71152BF25E40D647B2440C5B39BE157A3D356106BE9D5B678AB97BB87B4E782",
+      "size": 458
+    },
+    "app/GenshinRoutePlayer.Core.dll": {
+      "sha256": "866D8BF8ABD03750DF1A5D40B9DFB50DE5C3CEC8261358973A38A083CC496E4F",
+      "size": 50176
+    },
+    "app/GenshinRoutePlayer.Infrastructure.dll": {
+      "sha256": "D79E6381FAA955716711F8FB14004D8DAB5BAAA23A8944A36FC92D48B7E263D4",
+      "size": 63488
+    },
+    "app/GenshinRoutePlayer.Updater.Core.dll": {
+      "sha256": "6AF57D79A769FF8E64B61AEAF637E976AF34E3CB98EA0C0419EE0D2568BEAFB8",
+      "size": 141824
+    },
+    "config/app.yaml": {
+      "sha256": "407CEC1EECE2CF2B7B193EB5CD4407370E99E2AB93584AA5D2710ED521C916FA",
+      "size": 2877
+    },
+    "config/dependencies.json": {
+      "sha256": "1121091FBF778EE65E4E428D6CC10B068FF073D446E7FBF9C151C30D3F8E41CE",
+      "size": 585
+    },
+    "deps/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+      "sha256": "67FA4325000DB017DC0C35829B416F024F042D24EFB868BCF17A895EE6500A93",
+      "size": 63768
+    },
+    "deps/Microsoft.Extensions.DependencyInjection.dll": {
+      "sha256": "158761CE778E799949F3A3060C461B1055BB35F1F5A65EFF0E42397849F09ECD",
+      "size": 92952
+    },
+    "deps/Microsoft.Extensions.Logging.Abstractions.dll": {
+      "sha256": "45C22524218541717E4A0ADE36847C1CDA4921F5945B4975A1C78DDFE023D0B1",
+      "size": 65320
+    },
+    "deps/Microsoft.Extensions.Logging.dll": {
+      "sha256": "B2CFBA2E05EE89A91E9BC9CF112468A5F4FA05D1A77EA81C131EA656F3D133C2",
+      "size": 50976
+    },
+    "deps/Microsoft.Extensions.Options.dll": {
+      "sha256": "5E01894CBC0661BACB8CA8F485A40D5EE4E02F28FEF58007668A0276431B4693",
+      "size": 64776
+    },
+    "deps/Microsoft.Extensions.Primitives.dll": {
+      "sha256": "446FF16E903E7479558816E213A3ADEE9A1C1ADAD65A56D853801B10933E29D7",
+      "size": 43680
+    },
+    "deps/Serilog.dll": {
+      "sha256": "6B67FB3F104513036A7446CE4DA3B49449EC9CEA00437C38333910E47BFA41CB",
+      "size": 140800
+    },
+    "deps/Serilog.Extensions.Logging.dll": {
+      "sha256": "A0B6C860FA5BDB3F0EBE5C7AF709FC686A9AA575B616B706BD65A5D0C1FD4226",
+      "size": 29696
+    },
+    "deps/Serilog.Sinks.Console.dll": {
+      "sha256": "30B79981EF4EBD976A74F74A608C89700D043EFE441763678E0BA987FB421A7F",
+      "size": 38912
+    },
+    "deps/Serilog.Sinks.File.dll": {
+      "sha256": "192A97F6A2E408C36D9EC8A0EEE6BBA33A516DDEDF3662C031D88E744629F991",
+      "size": 31232
+    },
+    "deps/SharpGen.Runtime.COM.dll": {
+      "sha256": "28DEB56E87EE908DCE10094B666C5B603E3F01EF5B1C92603B0E7ED49B9B60AE",
+      "size": 168960
+    },
+    "deps/SharpGen.Runtime.dll": {
+      "sha256": "409AA1B082136C5FBA1FCF363EF91739551691979F237C9BC0E93CF6778427B7",
+      "size": 81408
+    },
+    "deps/System.IO.Pipelines.dll": {
+      "sha256": "1A397EBF43B555E03189AAE23879F4D4DE132BC1D0F7C46F7E2884204148B343",
+      "size": 77608
+    },
+    "deps/System.Text.Encodings.Web.dll": {
+      "sha256": "6BE651FCD81A92AB4B0E1157E46FF13F69B66E581DEF1495F767147E51A1AFA9",
+      "size": 70952
+    },
+    "deps/System.Text.Json.dll": {
+      "sha256": "793D646A2440E427F7897740B3AB9F1F692B31B419B3254E7ACE17275BAA8613",
+      "size": 643376
+    },
+    "deps/Vortice.Direct3D11.dll": {
+      "sha256": "BB5DB514F1C4D32B23564EF48231189F17C98854B078EC4C9FFE78DA05445AB4",
+      "size": 352768
+    },
+    "deps/Vortice.Direct3D9.dll": {
+      "sha256": "CC84A04192477691A801B07496DDE063A637E2120691EC59D55720E781664A6B",
+      "size": 138240
+    },
+    "deps/Vortice.DirectX.dll": {
+      "sha256": "F2592742CB433466EA685A669E55720B0D604A4EF1FB6E13625242A102E64EC6",
+      "size": 364544
+    },
+    "deps/Vortice.DXGI.dll": {
+      "sha256": "DBE7E6B76641843DD5B7B2C250335199538C2EB6DF530F96B654E871824949C0",
+      "size": 91648
+    },
+    "deps/Vortice.Mathematics.dll": {
+      "sha256": "525A67F1F998B557D35554406CE5744A26C8D1ABD5321B383A07FAD8E86AB8DC",
+      "size": 123904
+    },
+    "deps/YamlDotNet.dll": {
+      "sha256": "A08B5C6E543B58A807CA3B498E7C86792AA21626379CEB0588C532E185CD07D1",
+      "size": 272384
+    },
+    "lib/libmpv-2.dll": {
+      "sha256": "04E4D27DC385DC18DDD93FBE69C75E635B864F3C6EC53A9122DF54C2F7842F4A",
+      "size": 121108480
+    },
+    "scripts/install.ps1": {
+      "sha256": "5762AAEE5E506CEA34E4542B29A67E0BB336AA0EEC70F6053ED1BE4719E0E22A",
+      "size": 4286
+    },
+    "scripts/launcher.ps1": {
+      "sha256": "B45935DF4B29DC887052F38580B29F48D3B858252D93FDC578A25AC427F6F782",
+      "size": 2538
+    },
+    "tools/yt-dlp.exe": {
+      "sha256": "F5389D3698ECDE4EF06F4E6B1CE0294FE9AC1396228C8990B8D3416D6D177A7D",
+      "size": 23575744
+    },
+    "updater/GenshinRoutePlayer.Updater.Core.dll": {
+      "sha256": "BEAF624536F42FB4DDD6F71880C8AD7F71ED1DD348D65F1A3B93A3F547C82201",
+      "size": 142336
+    },
+    "updater/GenshinRoutePlayer.Updater.deps.json": {
+      "sha256": "A22178AE15A5FF1C49C52CBCA6AF51879FB9DEBBF12B7FC526B5D87E836D776F",
+      "size": 967
+    },
+    "updater/GenshinRoutePlayer.Updater.dll": {
+      "sha256": "B11EDFA355D38B4E35336632F9BE32F0A96102763879C822011FA15E7EB3DC95",
+      "size": 24064
+    },
+    "updater/GenshinRoutePlayer.Updater.exe": {
+      "sha256": "72C5F3B863126B9BBD4E12C481650EDD9573F48E9B7EAD63B1C454FF22902831",
+      "size": 152064
+    },
+    "updater/GenshinRoutePlayer.Updater.runtimeconfig.json": {
+      "sha256": "95505548C838F72A6A829FD5332DBC674C715CE26A216E9EB32BEC8B5821EAE2",
+      "size": 447
+    },
+    "updater/public.pem": {
+      "sha256": "2824675CEDAC8DE5CD488DC260C068856E4D4F8F8B7774925AB948DD00C65CF5",
+      "size": 177
+    },
+    "updater/updater.json": {
+      "sha256": "1BD93C3DB52128675F853BC7098B81F277EC66E270749CC9E87EC961CD827C1A",
+      "size": 904
+    }
+  }
+}

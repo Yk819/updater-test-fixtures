@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 2,
+  "manifestVersion": 1,
+  "generatedAt": "2026-11-05T15:28:45Z",
+  "latest": {
+    "beta": "0.1.0-beta1"
+  },
+  "minUpdaterVersion": "0.1.0",
+  "minSupportedVersion": "0.1.0-beta1",
+  "versions": [
+    {
+      "version": "0.1.0-beta1",
+      "channel": "beta",
+      "publishedAt": "2026-11-05T15:28:45Z",
+      "brief": "\u9996\u4E2A\u5E26\u81EA\u52A8\u66F4\u65B0\u7684\u6D4B\u8BD5\u7248"
+    }
+  ],
+  "edges": []
+}
